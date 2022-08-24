@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "username": "",
+      "password": "",
+      "report_type": "outer",
+      "notice_info": {
+        "notice_type": "",
+        "notice_key": ""
+      }
+    }
+  ]
+}
