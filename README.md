@@ -32,9 +32,9 @@
 其中，各项含义如下
 | 项 | 含义 | 备注 |
 | ---- | ---- | ---- |
-| username | 同一身份认证账号用户名 |  |
-| password | 同一身份认证账号密码 |  |
-| report_type | 填报类型 | 分为 `inner` 校内填报和 `outer` 校外填报 |
+| username | 统一身份认证账号用户名 |  |
+| password | 统一身份认证账号密码 |  |
+| report_type | 填报类型 | 分为 `inner` ([buaaStudentNcov](https://app.buaa.edu.cn/site/buaaStudentNcov/index)) 和 `outer` ([ncov](https://app.buaa.edu.cn/ncov/wap/default/index))，请打卡前确认自己要打卡的页面并填入对应的名称 |
 | notice_info | 打卡通知相关 | 若不需要通知可删除此项或保持原样 |
 | notice_info -> notice_type | 通知使用应用 | 目前只支持 `ServerChan` 和 `bark` |
 | notice_info -> notice_key | 通知应用Key | 其中 `ServerChan` 为 `SendKey`，`bark` 为 `https://api.day.app/{key}/{content}` 中 `key` 所在位置的值 |
